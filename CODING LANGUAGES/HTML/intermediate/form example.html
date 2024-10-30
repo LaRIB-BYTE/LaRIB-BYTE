@@ -1,0 +1,44 @@
+<!-- Form Example: User Registration Form -->
+<form action="/submit" method="POST">
+
+    <div>
+        <!-- Text Input for Full Name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="fullname" placeholder="Enter your name" required>
+    </div>
+    <br>
+
+    <div>
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+    <br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" maxlength="8" required>
+    <br>
+
+    <!-- Radio Buttons for Gender Selection -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br>
+
+    <!-- Dropdown for Country Selection -->
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="canada">Canada</option>
+    </select>
+    <br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">SUBMIT</button>
+
+</form>
